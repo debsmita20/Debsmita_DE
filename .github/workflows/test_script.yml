@@ -1,0 +1,19 @@
+tests:
+  - name: "Test getFaker function"
+    test_type: "unit"
+    function_name: "getFaker"
+    expected_output: 
+      fake: "some_fake_value"
+      current: "some_current_value"
+
+  - name: "Test getRandomCountry function"
+    test_type: "unit"
+    function_name: "getRandomCountry"
+    expected_output: 
+      country: "expected_country_value"
+
+  - name: "Test getRandomCallingCode function"
+    test_type: "unit"
+    function_name: "getRandomCallingCode"
+    expected_output: 
+      calling_code: "expected_calling_code_value"
